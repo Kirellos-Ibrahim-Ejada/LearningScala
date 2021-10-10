@@ -13,4 +13,4 @@
   4. make some analysis on the data (5 queries) using the two spark approches.
  
  ## Analytics
- ![Sodium amounts](./Analytics/Cereal 01.PNG?raw=true "Title")
+ ![Sodium amounts](../Analytics/Cereal 01.PNG?raw=true "Title")
