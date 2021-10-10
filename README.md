@@ -13,6 +13,6 @@
   4. make some analysis on the data (5 queries) using the two spark approches.
  
  ## Analytics
- ![Sodium amounts]!(Analytics/Cereal01.PNG)
+ ![Sodium amounts](Analytics/Cereal01.PNG)
 
 
