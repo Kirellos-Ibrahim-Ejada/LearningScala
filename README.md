@@ -2,15 +2,16 @@
  ## Used database: https://www.kaggle.com/crawford/80-cereals
  
  ## Used technologies:
-  1. spark.
-  2. scala.
-  3. sql.
+  1. Spark.
+  2. Scala.
+  3. SQL.
 
  ## Tasks:
-  1. read csv file.
-  2. show the dataframe.
-  3. print schema.
-  4. make some analysis on the data (5 queries) using the two spark approches.
+  1. Read csv file.
+  2. Phow the dataframe.
+  3. Print schema.
+  4. Make some analysis on the data (5 queries) using the two spark approches.
+  5. Add analysis graphs
  
  ## Analytics
  ![Sodium amounts](Analytics/Cereal01.PNG)
