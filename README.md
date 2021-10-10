@@ -14,5 +14,9 @@
  
  ## Analytics
  ![Sodium amounts](Analytics/Cereal01.PNG)
+ ![Vitamins amounts](Analytics/Cereal02.PNG)
+ ![MFR Types percentage](Analytics/Cereal03.PNG)
+ ![Shelfs capacity](Analytics/Cereal04.PNG)
+ ![Types percentage](Analytics/Cereal05.PNG)
 
 
