@@ -41,6 +41,7 @@ object Task_1 {
     mySpark.time(q1.show())
     println()
     
+    
     //most protein cereal
     val q2 = mySpark.sql("select name, protein from Cereal where protein >= 3 order by protein desc ")
     mySpark.time(q2.show())
@@ -98,5 +99,32 @@ object Task_1 {
     mySpark.time(q5_.show())
     println()
     
+    
+    /**
+     * Queries for graphs
+     */
+    //number of cereals with different amount of sodium
+    val qg1 = mySpark.sql("select sodium, count(*) as num_of_cereals from Cereal group by sodium order by sodium desc")
+    mySpark.time(qg1.show())
+    println()
+    
+    //number of cereals with different amount of vitamins
+    val qg2 = mySpark.sql("select vitamins, count(*) as num_of_cereals from Cereal group by vitamins order by vitamins desc")
+    mySpark.time(qg2.show())
+    println()
+    
+    val qg3 = mySpark.sql("select mfr, count(*), round(count(*) * 100 / sum(count(*)) over (), 2) as percentage " +
+                          "from cereal group by mfr order by percentage desc")
+    mySpark.time(qg3.show())
+    println()
+    
+    val qg4 = mySpark.sql("select type, count(*), round(count(*) * 100 / sum(count(*)) over (), 2) as percentage " +
+                          "from cereal group by type order by percentage desc")
+    mySpark.time(qg4.show())
+    println()
+    
+    val qg5 = mySpark.sql("select shelf, count(*) as number_of_products from cereal group by shelf order by shelf")
+    mySpark.time(qg5.show())
+    println()
   }
 }
