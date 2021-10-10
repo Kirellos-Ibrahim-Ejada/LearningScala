@@ -6,7 +6,7 @@
   2. scala.
   3. sql.
 
- ## Task:
+ ## Tasks:
   1. read csv file.
   2. show the dataframe.
   3. print schema.
