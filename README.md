@@ -13,6 +13,6 @@
   4. make some analysis on the data (5 queries) using the two spark approches.
  
  ## Analytics
- ![Sodium amounts]!(https://user-images.githubusercontent.com/92029167/136697348-efdc9803-11eb-4141-8fc1-0cb91f6bf14d.PNG)
- 
+ ![Sodium amounts]!(Analytics/Cereal01.PNG)
+
 
